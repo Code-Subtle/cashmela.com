@@ -1,0 +1,25 @@
+# CashMela — Enterprise FinTech & Debt Consolidation Platform
+
+CashMela is an Indian personal finance marketplace and debt consolidation advisory platform. We help borrowers compare loan offers, merge high-interest credit card debt and active personal loans into a single low-interest monthly EMI, and apply online through 40+ RBI-regulated lenders.
+
+## Core Products & Rates
+
+- [Personal Loans](https://cashmela.com/personal-loan): Compare instant unsecured personal loans up to ₹50 Lakhs. Rates start at 10.49% p.a., with tenures from 12 to 84 months.
+- [Debt Consolidation](https://cashmela.com/debt-consolidation): Combine credit card balances (24%–42% p.a.) and multiple personal loans into one EMI, cutting monthly payouts by up to 45%.
+- [Business Loans](https://cashmela.com/business-loan): Secure collateral-free working capital for Indian MSMEs and startups up to ₹75 Lakhs.
+- [Overdraft Facility](https://cashmela.com/overdraft): Flexible credit line up to ₹25 Lakhs with interest charged only on the withdrawn amount.
+
+## Financial Calculators
+
+- [Loan Eligibility Calculator](https://cashmela.com/calculators/loan-eligibility-calculator): Calculate borrowing capacity based on monthly salary and existing EMI obligations.
+- [Personal Loan Calculator](https://cashmela.com/calculators/personal-loan-calculator): Estimate monthly EMI payments, interest payable, and total payback schedule.
+- [Smart Tax Planner](https://cashmela.com/calculators/smart-tax-planner): Optimize tax liabilities under Old and New Tax Regimes (FY 2025-26 & FY 2026-27).
+- [Free Credit Score Check](https://cashmela.com/credit-score): Soft inquiry CIBIL credit score check without affecting your credit rating.
+
+## Entity & Regulatory Information
+
+- Platform Owner: CashMela Technologies
+- Official Site: https://cashmela.com
+- Customer Support: info@cashmela.com | +91-8080080114
+- Regulatory Compliance: Facilitator operating in full alignment with RBI Digital Lending Guidelines. All loans are disbursed directly by RBI-regulated lenders.
+- Full Specification: https://cashmela.com/llms-full.txt

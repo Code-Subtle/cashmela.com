@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+Disallow: /apply
+Disallow: /apply?*
+Disallow: /admin
+Disallow: /admin/*
+Disallow: /api/
+
+# Explicitly allow AI Search and RAG Crawlers for GEO & AEO
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://cashmela.com/sitemap.xml
