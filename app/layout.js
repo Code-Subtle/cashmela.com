@@ -104,6 +104,7 @@ export const metadata = {
 
   // Other
   other: {
+    "msvalidate.01": "8A69ED66F4F425C84B5960F53E56FB58",
     "geo.region": "IN",
     "geo.country": "India",
     "distribution": "global",
