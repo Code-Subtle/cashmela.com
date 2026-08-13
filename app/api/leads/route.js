@@ -38,7 +38,6 @@ export async function POST(request) {
 
     // Prepare lead payload
     const payload = {
-      user_id: null,
       full_name: full_name.trim(),
       mobile_number: mobile_number.trim(),
       email_address: email_address ? email_address.trim() : null,
@@ -89,7 +88,6 @@ export async function POST(request) {
       if (error.code === 'PGRST204' || error.code === '23514' || error.message?.includes('column') || error.message?.includes('constraint')) {
         const safeStatus = (error.code === '23514' || error.message?.includes('constraint')) && status === 'abandoned' ? 'stuck' : (status || 'pending');
         const fallbackPayload = {
-          user_id: null,
           full_name: full_name.trim(),
           mobile_number: mobile_number.trim(),
           email_address: email_address ? email_address.trim() : null,
