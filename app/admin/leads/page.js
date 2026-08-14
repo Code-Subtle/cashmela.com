@@ -26,7 +26,7 @@ export default async function LeadsPage() {
   const { data: leads, error } = await adminSupabase
     .from("leads")
     .select("*")
-    .order("created_at", { ascending: false });
+    .order("updated_at", { ascending: false, nullsFirst: false });
 
   if (error) {
     console.error("Error fetching leads:", error);

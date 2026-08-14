@@ -263,7 +263,7 @@ export default function LeadsTable({ initialLeads }) {
                 filteredLeads.map((lead) => (
                   <tr key={lead.id} className="hover:bg-slate-50 transition-colors">
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500 font-medium">
-                      {new Date(lead.created_at).toLocaleDateString("en-IN", {
+                      {new Date(lead.updated_at || lead.created_at).toLocaleDateString("en-IN", {
                         day: "2-digit",
                         month: "short",
                         year: "numeric"
@@ -351,10 +351,10 @@ export default function LeadsTable({ initialLeads }) {
               </div>
 
               <div>
-                <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-1">Creation Date</p>
+                <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-1">Submission Date</p>
                 <p className="text-sm font-bold text-slate-800 flex items-center gap-1.5">
                   <i className="uil uil-calendar-alt text-blue-500 text-base"></i>
-                  {new Date(selectedLead.created_at).toLocaleString("en-IN")}
+                  {new Date(selectedLead.updated_at || selectedLead.created_at).toLocaleString("en-IN")}
                 </p>
               </div>
 
