@@ -88,10 +88,10 @@ export const metadata = {
     email: true,
   },
 
-  // Verification
-  verification: {
-    google: "google-site-verification-placeholder",
-  },
+  // Verification — add your actual Google Search Console verification code here
+  // verification: {
+  //   google: "your-actual-verification-code",
+  // },
 
   // Icons
   icons: {

@@ -25,14 +25,16 @@ export async function generateMetadata({ params }) {
   const postUrl = `https://cashmela.com/blogs/${slug}`;
   const imageUrl = post.image?.startsWith('http') ? post.image : `https://cashmela.com${post.image || '/logo.webp'}`;
 
+  const pageTitle = post.metaTitle || post.title;
+
   return {
-    title: `${post.title} | CashMela`,
+    title: `${pageTitle} | CashMela`,
     description: post.description || `Read about ${post.title} on CashMela. Compare personal loan options and debt consolidation strategies in India.`,
     alternates: {
       canonical: postUrl,
     },
     openGraph: {
-      title: `${post.title} | CashMela`,
+      title: `${pageTitle} | CashMela`,
       description: post.description,
       url: postUrl,
       siteName: 'CashMela',
